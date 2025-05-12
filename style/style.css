@@ -174,7 +174,6 @@ a {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background-image: url('background.jpg');
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
