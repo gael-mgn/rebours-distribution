@@ -1,0 +1,46 @@
+
+
+    .mosaic-section {
+      position: relative;
+      max-width: 100%;
+      color: white;
+      padding: 2rem;
+      overflow: hidden;
+      background: #F2E8D7;
+    }
+
+    .grid {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: grid;
+      gap: 10px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .cell {
+      width: 50px;
+      height: 50px;
+      background-color: #9C4128;
+      transition: background-color 0.3s;
+    }
+
+    .green {
+      background-color: #374C47;
+    }
+
+    .content {
+  max-width: 800px;
+  margin: auto;
+      position: relative;
+      z-index: 1;
+      color: #F2E8D7;
+    }
+    .content h4, .content h1, .content h2, .content h3 {
+      color: #F2E8D7;
+    }
+
+
+
